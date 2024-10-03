@@ -77,17 +77,17 @@ header {
 }
 
 @font-face { 
-    font-family: 'GothamBlack'; /* Define uma nova fonte chamada 'GothamBlack' */
-    src: url('GothamBlack.otf') format('opentype'); /* Especifica o arquivo da fonte */
-    font-weight: normal; /* Define o peso da fonte como normal */
-    font-style: normal; /* Define o estilo da fonte como normal */
+    font-family: 'GothamBlack'; 
+    src: url('GothamBlack.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 @font-face { 
-    font-family: 'Comfy Feeling'; /* Define uma nova fonte chamada 'Comfy Feeling' */
-    src: url('Comfy Feeling.otf') format('opentype'); /* Especifica o arquivo da fonte */
-    font-weight: normal; /* Define o peso da fonte como normal */
-    font-style: normal; /* Define o estilo da fonte como normal */
+    font-family: 'Comfy Feeling'; 
+    src: url('Comfy Feeling.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 .textoCentral h1 { 
@@ -102,9 +102,9 @@ header {
 
 .botao { 
     text-align: center; /* Centraliza o conteúdo dentro do botão */
-    padding: 4%; /* Adiciona preenchimento de 4% ao redor do botão */
-    padding-top: 2%; /* Adiciona um preenchimento específico na parte superior */
-    padding-bottom: 6%; /* Adiciona um preenchimento específico na parte inferior */
+    padding: 4%; /* Adiciona preenchimento ao redor do botão */
+    padding-top: 2%; /* Adiciona um preenchimento na parte superior */
+    padding-bottom: 6%; /* Adiciona um preenchimento na parte inferior */
 }
 
 .botao button { 
