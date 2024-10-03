@@ -76,27 +76,27 @@ header {
     padding: 0px; /* Remove o preenchimento interno do botão */
 }
 
-@font-face { /* Adiciona fonte externa */
-    font-family: 'GothamBlack'; /* Nome da fonte */
-    src: url('GothamBlack.otf') format('opentype'); /* Localização do arquivo da fonte */
-    font-weight: normal; /* Peso da fonte */
-    font-style: normal; /* Estilo da fonte */
+@font-face { 
+    font-family: 'GothamBlack'; 
+    src: url('GothamBlack.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
-@font-face { /* Adiciona fonte externa */
-    font-family: 'Comfy Feeling'; /* Nome da fonte */
-    src: url('Comfy Feeling.otf') format('opentype'); /* Localização do arquivo da fonte */
-    font-weight: normal; /* Peso da fonte */
-    font-style: normal; /* Estilo da fonte */
+@font-face { 
+    font-family: 'Comfy Feeling'; 
+    src: url('Comfy Feeling.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 .cadastro { /* Estiliza a seção de cadastro */
     background-color: #fdcd50; /* Define a cor de fundo da seção de cadastro */
     text-align: center; /* Centraliza o conteúdo da seção */
     position: absolute; /* Posiciona a seção de forma absoluta */
-    left: 41.5%; /* Alinha a seção à esquerda a 41.5% da largura da tela */
-    top: 30%; /* Alinha a seção a 30% da altura da tela */
-    padding: 50px; /* Adiciona preenchimento interno de 50px */
+    left: 41.5%; /* Alinha da largura da tela */
+    top: 30%; /* Alinha da altura da tela */
+    padding: 50px; /* Adiciona preenchimento interno */
     border-radius: 15px; /* Arredonda os cantos da seção */
 }
 
