@@ -1,0 +1,140 @@
+body{
+    background: #8bc0d0;
+}
+
+header{   
+    text-align: center;
+    height: 275px;
+}
+
+.logodonut{ /*Estilizar imagem da logo*/
+    display: inline-block;
+    width: 260px;
+    padding-top: 1px; 
+}
+
+.menu-esquerda{ /*Estilizar elemento pai do menu-esquerda*/
+    display: inline-block;
+}
+
+.menu-esquerda a{ /*Estilizar elementos da tag <a> do menu-esquerda*/
+    color: white;
+    text-decoration: none;
+}
+
+.menu-esquerda li{ /* Estilizar itens da lista menu-esquerda*/
+    
+    display: inline;
+    position: relative;
+    margin: 0 0 0 50px;
+    font-family: 'GothamBlack', Times, serif; 
+    padding-right: 50px; 
+}
+
+.menu-esquerda ul{ /* Estilizar a lista desordenada menu-esquerda*/
+    border: solid;
+    border-color: white;
+    border-left: 0px;
+    border-right: 0px; 
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.menu-direita ul{ /* Estilizar a lista desordenada menu-direita*/
+    border: solid;
+    border-color: white;
+    border-left: 0px;
+    border-right: 0px; 
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.menu-direita{ /*Estilizar elemento pai do menu-direita*/
+    display: inline-block;
+}
+
+.menu-direita a{ /*Estilizar elementos da tag <a> do menu-direita*/
+    color: white;
+    text-decoration: none;
+}
+
+.menu-direita li{ /* Estilizar itens da lista menu-direita*/
+    display: inline;
+    margin: 0 0 0 50px;
+    font-family: 'GothamBlack', Times, serif; 
+    padding-right: 50px;
+}
+
+.icones{
+    text-align: right;
+    padding-right: 10%;
+}
+
+.icones button{
+    border: none;
+    background-color:#8bc0d0;
+    cursor: pointer;
+    padding: 0px;
+}
+
+@font-face { /*Adicionar fonte externa*/
+    font-family: 'GothamBlack';
+    src: url('GothamBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { /*Adicionar fonte externa*/
+    font-family: 'Comfy Feeling';
+    src: url('Comfy Feeling.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.cadastro{
+
+    background-color: #fdcd50;
+    text-align: center;
+    position: absolute;
+    left: 41.5%;
+    top: 30%;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.cadastro h1{
+    font-family: 'GothamBlack', Times, serif; 
+    color: white;
+    font-size: 20px;
+}
+
+.cadastro input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.cadastro button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Comfy Feeling', Times, serif; 
+}
+
+.cadastro button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+
+footer h1{ /*Estilizar elemento <h1> que contém imagem para o rodapé*/
+    display: flex; /*ocupa todo espaço do elemento pai*/
+    padding-left: 10%;
+    padding-top: 27%;
+}

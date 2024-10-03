@@ -1,0 +1,132 @@
+body{
+    background: #8bc0d0;
+}
+
+header{   
+    text-align: center;
+    height: 275px;
+}
+
+.logodonut{ /*Estilizar imagem da logo*/
+    display: inline-block;
+    width: 260px;
+    padding-top: 1px; 
+}
+
+.menu-esquerda{ /*Estilizar elemento pai do menu-esquerda*/
+    display: inline-block;
+}
+
+.menu-esquerda a{ /*Estilizar elementos da tag <a> do menu-esquerda*/
+    color: white;
+    text-decoration: none;
+}
+
+.menu-esquerda li{ /* Estilizar itens da lista menu-esquerda*/
+    
+    display: inline;
+    position: relative;
+    margin: 0 0 0 50px;
+    font-family: 'GothamBlack', Times, serif; 
+    padding-right: 50px; 
+}
+
+.menu-esquerda ul{ /* Estilizar a lista desordenada menu-esquerda*/
+    border: solid;
+    border-color: white;
+    border-left: 0px;
+    border-right: 0px; 
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.menu-direita ul{ /* Estilizar a lista desordenada menu-direita*/
+    border: solid;
+    border-color: white;
+    border-left: 0px;
+    border-right: 0px; 
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.menu-direita{ /*Estilizar elemento pai do menu-direita*/
+    display: inline-block;
+}
+
+.menu-direita a{ /*Estilizar elementos da tag <a> do menu-direita*/
+    color: white;
+    text-decoration: none;
+}
+
+.menu-direita li{ /* Estilizar itens da lista menu-direita*/
+    display: inline;
+    margin: 0 0 0 50px;
+    font-family: 'GothamBlack', Times, serif; 
+    padding-right: 50px;
+}
+
+.icones{
+    text-align: right;
+    padding-right: 10%;
+}
+
+.icones button{
+    border: none;
+    background-color:#8bc0d0;
+    cursor: pointer;
+    padding: 0px;
+}
+
+@font-face { /*Adicionar fonte externa*/
+    font-family: 'GothamBlack';
+    src: url('GothamBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { /*Adicionar fonte externa*/
+    font-family: 'Comfy Feeling';
+    src: url('Comfy Feeling.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.textoCentral h1{ /*Estilizar texto central <h1> do site*/
+    text-align: center;
+    font-family: 'Comfy Feeling', Times, serif; 
+    color: white;
+    font-size: 50px;
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-top: 8%;
+}
+
+.botao{ /*Estilizar elemento pai*/
+    text-align: center;
+    padding: 4%;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+
+.botao button{ /*Estilizar o botão*/
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'GothamBlack', Times, serif; 
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: #fdcd50;
+}
+
+.botao button:hover{
+    background-color: #8bc0d0;
+}
+
+footer h1{ /*Estilizar elemento <h1> que contém imagem para o rodapé*/
+    display: flex; /*ocupa todo espaço do elemento pai*/
+    padding-left: 10%;
+}
