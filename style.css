@@ -1,132 +1,131 @@
-body{
-    background: #8bc0d0;
+body {
+    background: #8bc0d0; /* Define a cor de fundo do corpo da página */
 }
 
-header{   
-    text-align: center;
-    height: 275px;
+header {   
+    text-align: center; /* Centraliza o conteúdo dentro do header */
+    height: 275px; /* Define uma altura fixa para o header */
 }
 
-.logodonut{ /*Estilizar imagem da logo*/
-    display: inline-block;
-    width: 260px;
-    padding-top: 1px; 
+.logodonut { 
+    display: inline-block; /* Permite que o elemento seja alinhado ao lado de outros elementos em linha */
+    width: 260px; /* Define uma largura fixa para o logotipo */
+    padding-top: 1px; /* Adiciona um pequeno espaço acima do logotipo */
 }
 
-.menu-esquerda{ /*Estilizar elemento pai do menu-esquerda*/
-    display: inline-block;
+.menu-esquerda { 
+    display: inline-block; /* Permite que o menu esquerdo fique ao lado de outros elementos */
 }
 
-.menu-esquerda a{ /*Estilizar elementos da tag <a> do menu-esquerda*/
-    color: white;
-    text-decoration: none;
+.menu-esquerda a { 
+    color: white; /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
 }
 
-.menu-esquerda li{ /* Estilizar itens da lista menu-esquerda*/
-    
-    display: inline;
-    position: relative;
-    margin: 0 0 0 50px;
-    font-family: 'GothamBlack', Times, serif; 
-    padding-right: 50px; 
+.menu-esquerda li { 
+    display: inline; /* Exibe os itens da lista em linha */
+    position: relative; /* Define a posição do elemento como relativa (para posicionamento futuro) */
+    margin: 0 0 0 50px; /* Adiciona uma margem esquerda de 50px */
+    font-family: 'GothamBlack', Times, serif; /* Define a fonte dos itens do menu */
+    padding-right: 50px; /* Adiciona um espaço à direita de cada item do menu */
 }
 
-.menu-esquerda ul{ /* Estilizar a lista desordenada menu-esquerda*/
-    border: solid;
-    border-color: white;
-    border-left: 0px;
-    border-right: 0px; 
-    padding-top: 5px;
-    padding-bottom: 1px;
+.menu-esquerda ul { 
+    border: solid; /* Adiciona uma borda sólida ao ul do menu esquerdo */
+    border-color: white; /* Define a cor da borda como branca */
+    border-left: 0px; /* Remove a borda esquerda */
+    border-right: 0px; /* Remove a borda direita */
+    padding-top: 5px; /* Adiciona um espaço acima do ul */
+    padding-bottom: 1px; /* Adiciona um espaço abaixo do ul */
 }
 
-.menu-direita ul{ /* Estilizar a lista desordenada menu-direita*/
-    border: solid;
-    border-color: white;
-    border-left: 0px;
-    border-right: 0px; 
-    padding-top: 5px;
-    padding-bottom: 1px;
+.menu-direita ul { 
+    border: solid; /* Mesma configuração de borda do menu esquerdo */
+    border-color: white; /* Borda branca */
+    border-left: 0px; /* Remove a borda esquerda */
+    border-right: 0px; /* Remove a borda direita */
+    padding-top: 5px; /* Adiciona um espaço acima do ul */
+    padding-bottom: 1px; /* Adiciona um espaço abaixo do ul */
 }
 
-.menu-direita{ /*Estilizar elemento pai do menu-direita*/
-    display: inline-block;
+.menu-direita { 
+    display: inline-block; /* Permite que o menu direito fique ao lado de outros elementos */
 }
 
-.menu-direita a{ /*Estilizar elementos da tag <a> do menu-direita*/
-    color: white;
-    text-decoration: none;
+.menu-direita a { 
+    color: white; /* Define a cor dos links do menu direito como branco */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
 }
 
-.menu-direita li{ /* Estilizar itens da lista menu-direita*/
-    display: inline;
-    margin: 0 0 0 50px;
-    font-family: 'GothamBlack', Times, serif; 
-    padding-right: 50px;
+.menu-direita li { 
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 0 0 50px; /* Adiciona uma margem esquerda de 50px */
+    font-family: 'GothamBlack', Times, serif; /* Define a fonte dos itens do menu */
+    padding-right: 50px; /* Adiciona um espaço à direita de cada item do menu */
 }
 
-.icones{
-    text-align: right;
-    padding-right: 10%;
+.icones {
+    text-align: right; /* Alinha o conteúdo dos ícones à direita */
+    padding-right: 10%; /* Adiciona um espaço à direita */
 }
 
-.icones button{
-    border: none;
-    background-color:#8bc0d0;
-    cursor: pointer;
-    padding: 0px;
+.icones button {
+    border: none; /* Remove a borda padrão dos botões */
+    background-color: #8bc0d0; /* Define a cor de fundo dos botões */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    padding: 0px; /* Remove o preenchimento interno do botão */
 }
 
-@font-face { /*Adicionar fonte externa*/
-    font-family: 'GothamBlack';
-    src: url('GothamBlack.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+@font-face { 
+    font-family: 'GothamBlack'; /* Define uma nova fonte chamada 'GothamBlack' */
+    src: url('GothamBlack.otf') format('opentype'); /* Especifica o arquivo da fonte */
+    font-weight: normal; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
 }
 
-@font-face { /*Adicionar fonte externa*/
-    font-family: 'Comfy Feeling';
-    src: url('Comfy Feeling.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-
+@font-face { 
+    font-family: 'Comfy Feeling'; /* Define uma nova fonte chamada 'Comfy Feeling' */
+    src: url('Comfy Feeling.otf') format('opentype'); /* Especifica o arquivo da fonte */
+    font-weight: normal; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
 }
 
-.textoCentral h1{ /*Estilizar texto central <h1> do site*/
-    text-align: center;
-    font-family: 'Comfy Feeling', Times, serif; 
-    color: white;
-    font-size: 50px;
-    padding: 10%;
-    padding-bottom: 5%;
-    padding-top: 8%;
+.textoCentral h1 { 
+    text-align: center; /* Centraliza o texto do h1 */
+    font-family: 'Comfy Feeling', Times, serif; /* Define a fonte do h1 */
+    color: white; /* Define a cor do texto como branca */
+    font-size: 50px; /* Define o tamanho da fonte do h1 */
+    padding: 10%; /* Adiciona preenchimento de 10% ao redor do h1 */
+    padding-bottom: 5%; /* Adiciona um preenchimento específico na parte inferior */
+    padding-top: 8%; /* Adiciona um preenchimento específico na parte superior */
 }
 
-.botao{ /*Estilizar elemento pai*/
-    text-align: center;
-    padding: 4%;
-    padding-top: 2%;
-    padding-bottom: 6%;
+.botao { 
+    text-align: center; /* Centraliza o conteúdo dentro do botão */
+    padding: 4%; /* Adiciona preenchimento de 4% ao redor do botão */
+    padding-top: 2%; /* Adiciona um preenchimento específico na parte superior */
+    padding-bottom: 6%; /* Adiciona um preenchimento específico na parte inferior */
 }
 
-.botao button{ /*Estilizar o botão*/
-    width: 180px;
-    height: 60px;
-    font-size: 20px;
-    font-family: 'GothamBlack', Times, serif; 
-    color: white;
-    cursor: pointer;
-    border: none;
-    border-radius: 15px;
-    border-style: solid;
-    background-color: #fdcd50;
+.botao button { 
+    width: 180px; /* Define a largura do botão */
+    height: 60px; /* Define a altura do botão */
+    font-size: 20px; /* Define o tamanho da fonte do botão */
+    font-family: 'GothamBlack', Times, serif; /* Define a fonte do botão */
+    color: white; /* Define a cor do texto do botão como branca */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 15px; /* Adiciona bordas arredondadas ao botão */
+    border-style: solid; /* Define o estilo da borda como sólida */
+    background-color: #fdcd50; /* Define a cor de fundo do botão */
 }
 
-.botao button:hover{
-    background-color: #8bc0d0;
+.botao button:hover {
+    background-color: #8bc0d0; /* Altera a cor de fundo do botão ao passar o mouse */
 }
 
-footer h1{ /*Estilizar elemento <h1> que contém imagem para o rodapé*/
-    display: flex; /*ocupa todo espaço do elemento pai*/
-    padding-left: 10%;
+footer h1 { 
+    display: flex; /* Utiliza o modelo flexível para alinhar os itens */
+    padding-left: 10%; /* Adiciona um espaço à esquerda do h1 no footer */
 }
+
